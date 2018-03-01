@@ -3,7 +3,7 @@ useDynLib("BayesLogit")
 
 #Define which functions people can see.
 export(logit, logit.EM, mlogit, rpg.gamma, rpg.devroye, rks,
-       logit.combine, rpg.alt, rpg.sp, rpg,
+       logit.combine, mlogit.combine, rpg.alt, rpg.sp, rpg,
        draw.indicators, draw.indicators.C, draw.indicators.R,
        compute.mixture, compute.mixture.lg, compute.mixture.l3)
 
@@ -17,3 +17,6 @@ export(logit, logit.EM, mlogit, rpg.gamma, rpg.devroye, rks,
 
 # For testing purposes.
 # logit.R, logit.EM.R, mlogit.R, rpg.gamma.R, rpg.devroye.R
+
+importFrom("stats", "pgamma", "pnorm", "rexp", "rgamma", "rnorm",
+             "runif", "sd")
