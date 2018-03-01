@@ -1,6 +1,6 @@
 Package: BayesLogit
-Version: 0.5.1
-Date: 2014-07-14
+Version: 0.7
+Date: 2018-03-01
 Title: Logistic Regression
 Author: Nicholas G. Polson, James G. Scott, and Jesse Windle
 Maintainer: Jesse Windle <jesse.windle@gmail.com>
