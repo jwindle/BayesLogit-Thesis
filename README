@@ -12,7 +12,7 @@ The Notes/ directory has manuscripts.
 
 Instructions for pushing for the first time:
 
-git remote add origin https://github.com/jwindle/BayesLogit.git
+git remote add origin https://github.com/jwindle/BayesLogit-Thesis.git
 git push -u origin master
 
 If you just want to use the R Scipts, then you just need to load the (new) 
